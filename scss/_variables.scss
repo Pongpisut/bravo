@@ -1,0 +1,75 @@
+////////////////////////////////////// Fonts //////////////////////////////////////
+$ibm_bold: "Conv_IBMPlexSansThai-Bold";
+$ibm_extralight: "Conv_IBMPlexSansThai-ExtraLight";
+$ibm_light: "Conv_IBMPlexSansThai-Light";
+$ibm_medium: "Conv_IBMPlexSansThai-Medium";
+$ibm_regular: "Conv_IBMPlexSansThai-Regular";
+$ibm_semibold: "Conv_IBMPlexSansThai-SemiBold";
+$ibm_text: "Conv_IBMPlexSansThai-Text";
+$ibm_thin: "Conv_IBMPlexSansThai-Thin";
+////////////////////////////////////// Variables //////////////////////////////////////
+$w: (
+  "mini-small": 200,
+  "small": 300,
+  "regular": 400,
+  "medium": 500,
+  "semi-bold": 600,
+  "bold": 700,
+);
+////////////////////////////////////// Colors //////////////////////////////////////
+:root {
+  --whites: #fff;
+  --blacks: #000;
+  --blues-bg: #060036;
+  --blues-border: #050029;
+  --color-font: #393939;
+  --blues-name: #2c4fa1;
+  --reds: #ff0101;
+  --c77: #777777;
+  --c36: #363636;
+}
+
+////////////////////////////////////// Function //////////////////////////////////////
+
+@function w($weight-name) {
+  @return map-get($w, $weight-name);
+}
+
+////////////////////////////////////// Mixins //////////////////////////////////////
+@mixin box-shadow($shadow) {
+  box-shadow: $shadow;
+  -o-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  -ms-box-shadow: $shadow;
+}
+
+%cuttext-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+}
+
+%transition-3 {
+  transition: all 0.3s ease-in-out;
+}
+
+%transition-5 {
+  transition: all 0.5s ease-in-out;
+}
+////////////////////////////////////// Code //////////////////////////////////////
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $ibm_regular !important;
+}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}

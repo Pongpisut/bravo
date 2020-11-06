@@ -1,0 +1,278 @@
+#salepage {
+  background-image: url("../img/bg-salepage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .form-regis-learn {
+    #smartwizard {
+      #step-1 {
+        .fa-user {
+          color: var(--blues-name);
+        }
+
+        .fa-map-marker-alt {
+          color: var(--blues-name);
+        }
+      }
+
+      #step-2 {
+        .fa-shopping-cart {
+          color: var(--blues-name);
+        }
+
+        .fa-book {
+          color: var(--blues-name);
+        }
+
+        .link-course {
+          a {
+            color: var(--color-fonts);
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        h4 {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .box-logo {
+    img {
+      margin-top: 2em;
+    }
+  }
+
+  .box-intro-course {
+    margin-top: 4em;
+
+    h2 {
+      font-family: $ibm_medium;
+      color: var(--blues-name);
+    }
+
+    .name-course {
+      position: relative;
+      top: 1em;
+
+      &::before {
+        width: 10px;
+        height: 10px;
+        background-color: var(--blues-name);
+        border-radius: 50%;
+        position: absolute;
+        content: "";
+        top: 5px;
+      }
+
+      span {
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .box-img-sale {
+    margin-top: 2em;
+  }
+
+  .form-regis-learn {
+    margin-top: 3em;
+  }
+
+  .box-review-photo {
+    margin-top: 4em;
+
+    .box-title-section {
+      text-align: center;
+
+      .title-section {
+        font-family: $ibm_medium;
+        color: var(--blues-name);
+        text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+      }
+
+      .sub-title {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .box-skill {
+    margin-top: 3em;
+    background-color: var(--whites);
+    padding: 8em 0;
+    -moz-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    -o-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+
+    .box-title-section {
+      text-align: center;
+
+      .title-section {
+        font-family: $ibm_medium;
+        color: var(--blues-name);
+        text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+      }
+
+      .sub-title {
+        font-size: 16px;
+      }
+    }
+
+    .box-skill-img {
+      margin-top: 2em;
+    }
+  }
+
+  .box-course-other {
+    margin-top: 5em;
+
+    .box-title-section {
+      text-align: center;
+
+      .title-section {
+        font-family: $ibm_medium;
+        color: var(--blues-name);
+        text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+      }
+
+      .sub-title {
+        font-size: 16px;
+      }
+    }
+
+    .box-detail-course {
+      margin-top: 2em;
+
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+        color: var(--blues-name);
+        margin-bottom: 0;
+        font-family: $ibm_medium;
+      }
+
+      span {
+        font-size: 14px;
+        color: var(--blacks);
+      }
+    }
+  }
+
+  .box-certificate {
+    background-color: var(--whites);
+    padding: 8em 0;
+    -moz-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    -o-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+
+    .box-title-section {
+      text-align: center;
+
+      .title-section {
+        font-family: $ibm_medium;
+        color: var(--blues-name);
+        text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+      }
+
+      .sub-title {
+        font-size: 16px;
+      }
+    }
+
+    .box-img-certificate {
+      margin-top: 3em;
+    }
+
+    .box-icon-certificate {
+      @extend .box-img-certificate;
+    }
+  }
+
+  .box-video {
+    margin-top: 5em;
+
+    .box-title-section {
+      text-align: center;
+
+      .title-section {
+        font-family: $ibm_medium;
+        color: var(--blues-name);
+        text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+      }
+
+      .sub-title {
+        font-size: 16px;
+      }
+    }
+
+    .box-video-iframe {
+      margin-top: 4em;
+    }
+  }
+
+  .box-reviews-text {
+    margin-top: 5em;
+
+    .box-section-reviews {
+      margin-bottom: 5em;
+
+      .box-img-section {
+        text-align: right;
+
+        img {
+          width: 50%;
+        }
+      }
+
+      .box-title-section {
+        .title-section {
+          font-family: $ibm_medium;
+          color: var(--blues-name);
+          text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+        }
+
+        .sub-title {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .grid-user-reviews {
+      margin-top: 1em;
+
+      .box-reviews-text-user {
+        background-color: var(--blues-name);
+        padding: 15px;
+        border-radius: 5px;
+
+        .detail-reviews-text {
+          color: var(--whites);
+          line-height: 30px;
+          font-size: 16px;
+        }
+
+        .name-reviews {
+          color: var(--whites);
+        }
+      }
+    }
+  }
+
+  ///////////////////////////////
+
+  .btn-register-section {
+    margin: 3em;
+  }
+}

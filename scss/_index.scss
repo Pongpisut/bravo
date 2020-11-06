@@ -1,0 +1,276 @@
+#content-index {
+  background-image: url("../img/bg-index.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .box-bg-user {
+    position: relative;
+
+    .img-bg-user {
+      margin-top: 4em;
+    }
+  }
+
+  .box-countdown-course {
+    background-image: url("../img/bg-course-index.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    top: 14%;
+    right: 5%;
+    min-width: 400px;
+    padding-bottom: 1rem;
+
+    .img-logo-bravo {
+      padding: 15px;
+
+      img {
+        max-width: 100px;
+      }
+    }
+
+    .box-detail-countdown {
+      padding: 15px;
+      text-align: center;
+
+      p {
+        font-family: $ibm_medium;
+        color: var(--color-font);
+        font-size: 22px;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        font-family: $ibm_medium;
+        color: var(--blues-name);
+      }
+
+      .line-course {
+        background-color: var(--blues-name);
+        height: 2px;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      //
+
+      .price {
+        margin-top: 1em;
+
+        p {
+          font-family: $ibm_medium;
+          color: var(--color-font);
+          font-size: 30px;
+          display: inline;
+          position: relative;
+
+          &::after {
+            position: absolute;
+            content: "";
+            padding: 3px;
+            width: 90%;
+            height: 3px;
+            bottom: 0;
+            top: 20px;
+            left: 0;
+            transform: rotate(170deg);
+            background-color: var(--reds);
+          }
+        }
+
+        .free-price {
+          font-size: 60px;
+          font-family: $ibm_medium;
+          color: var(--reds);
+        }
+      }
+
+      .box-next-live {
+        .text-next-live {
+          font-size: 16px;
+          color: var(--color-font);
+        }
+
+        .box-count-down {
+          margin: 0.2em;
+
+          #countdown {
+            ul {
+              text-align: center;
+
+              li {
+                list-style: none;
+                display: inline-block;
+                padding: 10px;
+                font-size: 22px;
+                margin-left: 15px;
+
+                #days {
+                  display: block;
+                  border: 3px solid var(--color-font);
+                  border-radius: 50%;
+                  width: 50px;
+                  height: 50px;
+                  padding-top: 7px;
+                  margin-left: 15px;
+                }
+
+                #hours {
+                  @extend #days;
+                }
+                #minutes {
+                  @extend #days;
+                }
+                #seconds {
+                  @extend #days;
+                }
+
+                .text-date {
+                  font-size: 18px;
+                  margin-left: 15px;
+                }
+              }
+            }
+          }
+
+          .message {
+            #content {
+              margin-top: 1rem;
+              display: none;
+            }
+          }
+        }
+      }
+
+      .box-btn {
+        margin-top: 1rem;
+
+        p {
+          font-size: 16px;
+          margin: 0.2rem 0rem;
+        }
+
+        #register-btn {
+          margin: 0.3rem 0;
+        }
+
+        #select-time-btn {
+          @extend #register-btn;
+        }
+      }
+    }
+  }
+
+  .card-course {
+    border-color: var(--blues-border);
+    margin: 2em 0;
+
+    p {
+      line-height: 22px;
+      margin-bottom: 0;
+      color: var(--whites);
+    }
+
+    .name-th {
+      font-size: 20px;
+      margin-top: 0.2rem;
+    }
+
+    .name-en {
+      font-size: 14px;
+    }
+
+    .card-header {
+      background-color: var(--blues-border);
+    }
+
+    .card-body {
+      padding: 0 !important;
+    }
+  }
+
+  .box-modal {
+    a {
+      margin-bottom: 2em;
+    }
+  }
+
+  .footer-index {
+    margin-top: 1em;
+    p {
+      color: var(--whites);
+      margin-top: 0.4rem;
+    }
+  }
+}
+
+#myModal1 {
+  .modal-header {
+    background-color: var(--blues-name);
+    color: var(--whites);
+    display: inline-block !important;
+    text-align: center;
+
+    .close {
+      color: var(--whites);
+    }
+  }
+
+  .modal-footer {
+    border-bottom: 5px solid var(--blues-name);
+  }
+}
+
+#myModal2 {
+  @extend #myModal1;
+}
+
+#timeModal1 {
+  @extend #myModal1;
+}
+#timeModal2 {
+  @extend #myModal1;
+}
+
+.form-check {
+  margin-top: 0.5rem;
+
+  .form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-left: -2rem;
+    margin-top: 1px;
+  }
+}
+
+.btn-banner-index {
+  width: 50%;
+}
+
+.btn-gradient {
+  border-radius: 0 !important;
+  color: var(--whites) !important;
+  background-color: #224693;
+  background-image: -webkit-linear-gradient(
+    left,
+    #224693 0%,
+    #1ab495 50%,
+    #224693 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    #224693 0%,
+    #1ab495 50%,
+    #224693 100%
+  );
+
+  background-size: 200% 100%;
+  @extend %transition-5;
+
+  &:hover {
+    background-color: #1ab495;
+    background-position: 100% 0;
+
+    @extend %transition-5;
+  }
+}

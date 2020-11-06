@@ -1,0 +1,186 @@
+@include media768 {
+  #waitlive {
+    &::after {
+      height: 25%;
+    }
+
+    .footer-wait-live {
+      .box-detail-wait {
+        .box-countdown-wait {
+          #countdown {
+            ul {
+              li {
+                padding: 5px;
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include min-media425 {
+  .box-wait-download {
+    .watch {
+      .title-watch {
+        margin-top: 2rem;
+        text-align: center;
+      }
+
+      .sub-watch {
+        text-align: center;
+      }
+    }
+
+    .download-ebook {
+      .title-download-book {
+        p {
+          margin-top: 2rem;
+          text-align: center;
+        }
+      }
+
+      .sub-download-book {
+        text-align: center;
+      }
+    }
+  }
+
+  .box-wait-teacher {
+    margin-top: 3em;
+
+    .teacher-info {
+      text-align: center;
+    }
+  }
+
+  .footer-wait-live {
+    .box-detail-wait {
+      .box-logo-site {
+        text-align: center;
+      }
+
+      .box-countdown-wait {
+        .title-live {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@include min-media375 {
+  #waitlive {
+    .box-wait-live {
+      .title-live {
+        font-size: 26px;
+      }
+    }
+
+    .box-wait-download {
+      .watch {
+        .title-watch {
+          font-size: 24px;
+        }
+      }
+
+      .download-ebook {
+        .title-download-book {
+          p {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media320 {
+  #waitlive {
+    &::after {
+      height: 15%;
+    }
+
+    .box-wait-live {
+      .title-live {
+        font-size: 22px;
+      }
+    }
+
+    .box-wait-download {
+      .watch {
+        .title-watch {
+          font-size: 20px;
+          text-align: center;
+          margin-top: 2rem;
+        }
+
+        .sub-watch {
+          text-align: center;
+        }
+      }
+
+      .download-ebook {
+        .title-download-book {
+          p {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 2rem;
+          }
+        }
+
+        .sub-download-book {
+          text-align: center;
+        }
+      }
+    }
+
+    .box-wait-teacher {
+      margin-top: 3em;
+
+      .teacher-info {
+        text-align: center;
+      }
+    }
+
+    .box-logo-site {
+      text-align: center;
+    }
+
+    .footer-wait-live {
+      .box-detail-wait {
+        .box-countdown-wait {
+          #countdown {
+            ul {
+              li {
+                margin-left: 0 !important;
+
+                #days {
+                  margin-left: 0;
+                }
+
+                #hours {
+                  margin-left: 0;
+                }
+
+                #minutes {
+                  margin-left: 0;
+                }
+
+                #seconds {
+                  margin-left: 0;
+                }
+
+                .text-date {
+                  margin-left: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

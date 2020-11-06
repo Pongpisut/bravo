@@ -1,0 +1,126 @@
+@include media1024 {
+  #content-index {
+    .box-countdown-course {
+      right: 3%;
+      top: 11%;
+      padding-bottom: 0;
+
+      .box-detail-countdown {
+        padding: 6px;
+      }
+    }
+  }
+}
+
+@include media768 {
+  #content-index {
+    .box-bg-user {
+      position: initial;
+    }
+
+    .box-countdown-course {
+      position: initial;
+      margin-top: 2em;
+      min-width: 100%;
+      background-repeat: repeat;
+      padding-bottom: 1em;
+
+      .box-detail-countdown {
+        .box-next-live {
+          .box-count-down {
+            #countdown {
+              margin-top: 1rem;
+              ul {
+                li {
+                  padding: 0;
+
+                  #days {
+                    margin-left: 10px;
+                  }
+
+                  #hours {
+                    margin-left: 10px;
+                  }
+
+                  #minutes {
+                    margin-left: 10px;
+                  }
+
+                  #seconds {
+                    margin-left: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media426 {
+  .btn-gradient {
+    width: 100%;
+  }
+
+  .footer-index {
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+@include min-media375 {
+  #content-index {
+    .box-countdown-course {
+      .box-detail-countdown {
+        .box-next-live {
+          .box-count-down {
+            #countdown {
+              ul {
+                li {
+                  #days {
+                    margin-left: 0;
+                    font-size: 20px;
+                  }
+
+                  #hours {
+                    margin-left: 0;
+                    font-size: 20px;
+                  }
+
+                  #minutes {
+                    margin-left: 0;
+                    font-size: 20px;
+                  }
+
+                  #seconds {
+                    margin-left: 0;
+                    font-size: 20px;
+                  }
+
+                  .text-date {
+                    font-size: 14px;
+                    margin-left: -10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-index {
+    p {
+      font-size: 11px;
+    }
+  }
+}
+
+@include media320 {
+  .btn-gradient {
+    width: 100%;
+  }
+}

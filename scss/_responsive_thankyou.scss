@@ -1,0 +1,237 @@
+@include media1024 {
+  #thankyou-page {
+    .date-learning {
+      font-size: 14px;
+    }
+
+    .text-send-mail {
+      font-size: 12px;
+    }
+  }
+}
+
+@include media768 {
+  .date-learning {
+    font-size: 12px;
+  }
+
+  .text-send-mail {
+    font-size: 10px;
+  }
+
+  .navbar-brand {
+    img {
+      margin-top: 1.5rem;
+    }
+  }
+
+  .box-step {
+    .box-step1 {
+      margin-bottom: 4em;
+    }
+  }
+
+  .content-thankyou {
+    .box-lecturer {
+      margin-bottom: 2em;
+    }
+
+    .box-time-learning {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+@include media426 {
+  #thankyou-page {
+    .content-thankyou {
+      .box-lecturer {
+        .box-name-lecturer {
+          text-align: center;
+          margin-top: 0.2em;
+          margin-bottom: 1em;
+        }
+      }
+
+      .box-time-learning {
+        margin-bottom: 1em;
+
+        .box-time-learn {
+          text-align: center;
+          margin-top: 0.2em;
+          margin-bottom: 1em;
+        }
+      }
+    }
+
+    .date-learning {
+      font-size: 13px;
+    }
+
+    .box-text-thank {
+      h1 {
+        font-size: 28px;
+      }
+    }
+
+    .box-iframe {
+      iframe {
+        width: 100% !important;
+      }
+    }
+
+    .box-step {
+      .box-step1 {
+        h2 {
+          font-size: 28px;
+        }
+      }
+
+      .box-step2 {
+        h2 {
+          font-size: 28px;
+        }
+
+        #countdown {
+          ul {
+            li {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .text-send-mail {
+    margin-top: 1rem;
+  }
+}
+
+@include media376 {
+  #thankyou-page {
+    .date-learning {
+      font-size: 14px;
+    }
+
+    .box-text-thank {
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    .box-iframe {
+      iframe {
+        width: 100% !important;
+      }
+    }
+
+    .box-step {
+      .box-step1 {
+        h2 {
+          font-size: 24px;
+        }
+      }
+
+      .box-step2 {
+        h2 {
+          font-size: 24px;
+        }
+
+        .begin-time {
+          font-size: 24px;
+        }
+
+        #countdown {
+          ul {
+            li {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media320 {
+  #thankyou-page {
+    .date-learning {
+      font-size: 16px;
+    }
+
+    .box-text-thank {
+      h1 {
+        font-size: 20px;
+      }
+
+      .sub-thank {
+        font-size: 14px;
+      }
+    }
+
+    .box-iframe {
+      iframe {
+        width: 100% !important;
+      }
+    }
+
+    .box-step {
+      .box-step1 {
+        h2 {
+          font-size: 20px;
+        }
+      }
+
+      .box-step2 {
+        h2 {
+          font-size: 20px;
+        }
+
+        .begin-time {
+          font-size: 20px;
+        }
+
+        #countdown {
+          ul {
+            li {
+              padding: 0;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .content-thankyou {
+      .box-lecturer {
+        .experience-lecturer {
+          font-size: 16px;
+        }
+
+        .box-name-lecturer {
+          .name-lecturer {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .box-time-learning {
+        .experience-learning {
+          font-size: 16px;
+        }
+
+        .box-time-learn {
+          .times-learn {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  .footer-thankyou {
+    p {
+      font-size: 11px;
+    }
+  }
+}

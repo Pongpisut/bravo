@@ -1,0 +1,320 @@
+@media screen and (max-width: 1024px) {
+  #content-index .box-countdown-course {
+    right: 3%;
+    top: 11%;
+    padding-bottom: 0;
+  }
+  #content-index .box-countdown-course .box-detail-countdown {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #content-index .box-bg-user {
+    position: initial;
+  }
+  #content-index .box-countdown-course {
+    position: initial;
+    margin-top: 2em;
+    min-width: 100%;
+    background-repeat: repeat;
+    padding-bottom: 1em;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown {
+    margin-top: 1rem;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li {
+    padding: 0;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #days {
+    margin-left: 10px;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #hours {
+    margin-left: 10px;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #minutes {
+    margin-left: 10px;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #seconds {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .btn-gradient {
+    width: 100%;
+  }
+  .footer-index p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #days {
+    margin-left: 0;
+    font-size: 20px;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #hours {
+    margin-left: 0;
+    font-size: 20px;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #minutes {
+    margin-left: 0;
+    font-size: 20px;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #seconds {
+    margin-left: 0;
+    font-size: 20px;
+  }
+  #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li .text-date {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  .footer-index p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn-gradient {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #thankyou-page .date-learning {
+    font-size: 14px;
+  }
+  #thankyou-page .text-send-mail {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .date-learning {
+    font-size: 12px;
+  }
+  .text-send-mail {
+    font-size: 10px;
+  }
+  .navbar-brand img {
+    margin-top: 1.5rem;
+  }
+  .box-step .box-step1 {
+    margin-bottom: 4em;
+  }
+  .content-thankyou .box-lecturer {
+    margin-bottom: 2em;
+  }
+  .content-thankyou .box-time-learning {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #thankyou-page .content-thankyou .box-lecturer .box-name-lecturer {
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+  }
+  #thankyou-page .content-thankyou .box-time-learning {
+    margin-bottom: 1em;
+  }
+  #thankyou-page .content-thankyou .box-time-learning .box-time-learn {
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+  }
+  #thankyou-page .date-learning {
+    font-size: 13px;
+  }
+  #thankyou-page .box-text-thank h1 {
+    font-size: 28px;
+  }
+  #thankyou-page .box-iframe iframe {
+    width: 100% !important;
+  }
+  #thankyou-page .box-step .box-step1 h2 {
+    font-size: 28px;
+  }
+  #thankyou-page .box-step .box-step2 h2 {
+    font-size: 28px;
+  }
+  #thankyou-page .box-step .box-step2 #countdown ul li {
+    padding: 0;
+  }
+  .text-send-mail {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #thankyou-page .date-learning {
+    font-size: 14px;
+  }
+  #thankyou-page .box-text-thank h1 {
+    font-size: 24px;
+  }
+  #thankyou-page .box-iframe iframe {
+    width: 100% !important;
+  }
+  #thankyou-page .box-step .box-step1 h2 {
+    font-size: 24px;
+  }
+  #thankyou-page .box-step .box-step2 h2 {
+    font-size: 24px;
+  }
+  #thankyou-page .box-step .box-step2 .begin-time {
+    font-size: 24px;
+  }
+  #thankyou-page .box-step .box-step2 #countdown ul li {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #thankyou-page .date-learning {
+    font-size: 16px;
+  }
+  #thankyou-page .box-text-thank h1 {
+    font-size: 20px;
+  }
+  #thankyou-page .box-text-thank .sub-thank {
+    font-size: 14px;
+  }
+  #thankyou-page .box-iframe iframe {
+    width: 100% !important;
+  }
+  #thankyou-page .box-step .box-step1 h2 {
+    font-size: 20px;
+  }
+  #thankyou-page .box-step .box-step2 h2 {
+    font-size: 20px;
+  }
+  #thankyou-page .box-step .box-step2 .begin-time {
+    font-size: 20px;
+  }
+  #thankyou-page .box-step .box-step2 #countdown ul li {
+    padding: 0;
+    margin-left: 0;
+  }
+  #thankyou-page .content-thankyou .box-lecturer .experience-lecturer {
+    font-size: 16px;
+  }
+  #thankyou-page .content-thankyou .box-lecturer .box-name-lecturer .name-lecturer {
+    font-size: 15px;
+  }
+  #thankyou-page .content-thankyou .box-time-learning .experience-learning {
+    font-size: 16px;
+  }
+  #thankyou-page .content-thankyou .box-time-learning .box-time-learn .times-learn {
+    font-size: 15px;
+  }
+  .footer-thankyou p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #waitlive::after {
+    height: 25%;
+  }
+  #waitlive .footer-wait-live .box-detail-wait .box-countdown-wait #countdown ul li {
+    padding: 5px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .box-wait-download .watch .title-watch {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .box-wait-download .watch .sub-watch {
+    text-align: center;
+  }
+  .box-wait-download .download-ebook .title-download-book p {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .box-wait-download .download-ebook .sub-download-book {
+    text-align: center;
+  }
+  .box-wait-teacher {
+    margin-top: 3em;
+  }
+  .box-wait-teacher .teacher-info {
+    text-align: center;
+  }
+  .footer-wait-live .box-detail-wait .box-logo-site {
+    text-align: center;
+  }
+  .footer-wait-live .box-detail-wait .box-countdown-wait .title-live {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  #waitlive .box-wait-live .title-live {
+    font-size: 26px;
+  }
+  #waitlive .box-wait-download .watch .title-watch {
+    font-size: 24px;
+  }
+  #waitlive .box-wait-download .download-ebook .title-download-book p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #waitlive::after {
+    height: 15%;
+  }
+  #waitlive .box-wait-live .title-live {
+    font-size: 22px;
+  }
+  #waitlive .box-wait-download .watch .title-watch {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #waitlive .box-wait-download .watch .sub-watch {
+    text-align: center;
+  }
+  #waitlive .box-wait-download .download-ebook .title-download-book p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #waitlive .box-wait-download .download-ebook .sub-download-book {
+    text-align: center;
+  }
+  #waitlive .box-wait-teacher {
+    margin-top: 3em;
+  }
+  #waitlive .box-wait-teacher .teacher-info {
+    text-align: center;
+  }
+  #waitlive .box-logo-site {
+    text-align: center;
+  }
+  #waitlive .footer-wait-live .box-detail-wait .box-countdown-wait #countdown ul li {
+    margin-left: 0 !important;
+  }
+  #waitlive .footer-wait-live .box-detail-wait .box-countdown-wait #countdown ul li #days {
+    margin-left: 0;
+  }
+  #waitlive .footer-wait-live .box-detail-wait .box-countdown-wait #countdown ul li #hours {
+    margin-left: 0;
+  }
+  #waitlive .footer-wait-live .box-detail-wait .box-countdown-wait #countdown ul li #minutes {
+    margin-left: 0;
+  }
+  #waitlive .footer-wait-live .box-detail-wait .box-countdown-wait #countdown ul li #seconds {
+    margin-left: 0;
+  }
+  #waitlive .footer-wait-live .box-detail-wait .box-countdown-wait #countdown ul li .text-date {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
