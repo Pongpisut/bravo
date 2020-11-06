@@ -1,0 +1,228 @@
+@include media768 {
+  #salepage {
+    .box-img-sale {
+      text-align: center;
+    }
+
+    .box-review-photo {
+      .box-title-section {
+        .title-section {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .box-skill {
+      .box-title-section {
+        .title-sectio {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .box-course-other {
+      .box-title-section {
+        .title-section {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .box-certificate {
+      .box-title-section {
+        .title-section {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .box-reviews-text {
+      .box-section-reviews {
+        .box-title-section {
+          .title-section {
+            font-size: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media426 {
+  #salepage {
+    .box-review-photo {
+      .box-title-section {
+        .title-section {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .box-skill {
+      margin-top: 0;
+      padding: 0;
+      clip-path: initial;
+    }
+
+    .box-certificate {
+      padding: 0;
+      clip-path: initial;
+    }
+
+    .box-reviews-text {
+      .box-section-reviews {
+        margin-bottom: 1em;
+
+        .box-img-section {
+          text-align: center;
+        }
+
+        .box-title-section {
+          .title-section {
+            text-align: center;
+          }
+
+          .sub-title {
+            text-align: center;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media376 {
+  #salepage {
+    .box-review-photo {
+      .box-title-section {
+        .title-section {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .box-skill {
+      .box-title-section {
+        .title-section {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .box-course-other {
+      .box-title-section {
+        .title-section {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .box-certificate {
+      .box-title-section {
+        .title-section {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .box-video {
+      .box-title-section {
+        .title-section {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@include media320 {
+  #salepage {
+    .box-review-photo {
+      .box-title-section {
+        .title-section {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .box-review-photo {
+      .box-title-section {
+        .sub-title {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .box-skill {
+      margin-top: 0;
+      padding: 0;
+      clip-path: initial;
+
+      .box-title-section {
+        .title-section {
+          font-size: 20px;
+        }
+
+        .sub-title {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .box-certificate {
+      padding: 0;
+      clip-path: initial;
+
+      .box-title-section {
+        .title-section {
+          font-size: 20px;
+        }
+
+        .sub-title {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .box-video {
+      .box-title-section {
+        .title-section {
+          font-size: 20px;
+        }
+
+        .sub-title {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .box-reviews-text {
+      .box-section-reviews {
+        margin-bottom: 1em;
+
+        .box-img-section {
+          text-align: center;
+        }
+
+        .box-title-section {
+          text-align: center;
+
+          .title-section {
+            font-size: 20px;
+          }
+
+          .sub-title {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .btn-register-section {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2em !important;
+  }
+}

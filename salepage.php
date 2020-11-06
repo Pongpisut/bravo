@@ -399,8 +399,8 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="box-title-section">
-                            <h2 class="title-section">คอร์สเรียนเพิ่มเติมอื่นๆ</h2>
-                            <p class="sub-title">เรามีอีกหลายหลักสูตรให้ท่านเลือก</p>
+                            <h2 class="title-section">วิดีโอแนะนำหลักสูตร</h2>
+                            <p class="sub-title">เรามีวิดีโอแนะนำหลักสูตรก่อนเข้าเรียนเพื่อให้ท่านตัดสินใจ</p>
                         </div>
 
                         <div class="box-video-iframe">
@@ -439,7 +439,11 @@
                     <?php for ($i = 1; $i <= 9; $i++) { ?>
                         <div class="col-lg-4 col-md-4 col-sm-4 grid-user-reviews">
                             <div class="box-reviews-text-user">
-                                <div class="star"></div>
+                                <div class="star">
+                                    <?php for ($k = 1; $k <= 5; $k++) { ?>
+                                        <i class="fas fa-star"></i>
+                                    <?php } ?>
+                                </div>
                                 <p class="detail-reviews-text">ขอบคุณสำหรับคอร์สดีๆครับทำให้ผมมีกำไรเพิ่มขึ้นหลายเท่า จากที่เคยเติมเงินตลอดตอนนี้ได้ถอนแล้วครับ</p>
                                 <p class="name-reviews">- David</p>
                             </div>
@@ -456,7 +460,32 @@
     </section>
 
 
-    <?php include 'footer.php'; ?>
+    <!-- Footer -->
+    <section class="footer-salepage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="img-logo-footer text-center">
+                        <img src="assets/img/logo.png" class="img-fluid" alt="">
+                        <p class="sub-logo">การฝึกอบรมเป็นการศึกษาแตัวอย่างที่ให้ไว้เป็นเพียงแนวทางในการต่อยอด<br>และผลลัพธ์ของคุณจะแตกต่างกันไป</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <span class="menu-jump">ข้ามไปที่ :</span>
+                    <span class="jumpto"><a href="javascript:void(0)">สิ่งที่นักเรียนจะได้รับ</a></span>
+                    <span class="jumpto"><a href="javascript:void(0)">รีวิวจากผู้เรียน</a></span>
+                    <span class="jumpto"><a href="javascript:void(0)">ลงทะเบียนเรียน</a></span>
+                    <span class="jumpto"><a href="javascript:void(0)">คอร์สเรียนอื่นๆ</a></span>
+
+                    <p class="copyright">
+                        Copyright © 2020 all rights reserved. | Bravo Win Trade
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  End Footer -->
 
     <?php include 'javascript.php'; ?>
 

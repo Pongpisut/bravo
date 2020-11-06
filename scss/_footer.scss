@@ -1,0 +1,38 @@
+.footer-salepage {
+  background-color: var(--bg-footer);
+
+  .img-logo-footer {
+    margin-top: 2em;
+  }
+
+  .sub-logo {
+    margin: 2em 0;
+    color: var(--whites);
+    font-size: 16px;
+  }
+
+  .menu-jump {
+    font-size: 16px;
+    color: var(--whites);
+  }
+
+  .jumpto {
+    font-size: 16px;
+
+    a {
+      color: var(--whites);
+      padding: 10px;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 16px;
+    color: var(--whites);
+    margin: 2em 0;
+  }
+}

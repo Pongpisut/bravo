@@ -1,85 +1,30 @@
-#salepage {
+#store {
   background-image: url("../img/bg-salepage.png");
   background-repeat: no-repeat;
   background-size: cover;
 
-  .form-regis-learn {
-    #smartwizard {
-      #step-1 {
-        .fa-user {
-          color: var(--blues-name);
-        }
-
-        .fa-map-marker-alt {
-          color: var(--blues-name);
-        }
-      }
-
-      #step-2 {
-        .fa-shopping-cart {
-          color: var(--blues-name);
-        }
-
-        .fa-book {
-          color: var(--blues-name);
-        }
-
-        .link-course {
-          a {
-            color: var(--color-fonts);
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-
-        h4 {
-          margin-top: 0;
-        }
-      }
-    }
+  .header-store {
+    padding-top: 3em;
   }
 
-  .box-logo {
-    img {
-      margin-top: 2em;
-    }
-  }
-
-  .box-intro-course {
+  .box-course-store {
     margin-top: 4em;
 
-    h2 {
-      font-family: $ibm_medium;
+    .title-course {
       color: var(--blues-name);
+      font-family: $ibm_medium;
     }
 
-    .name-course {
-      position: relative;
-      top: 1em;
+    .box-course-sale {
+      margin-top: 3em;
 
-      &::before {
-        width: 10px;
-        height: 10px;
-        background-color: var(--blues-name);
-        border-radius: 50%;
-        position: absolute;
-        content: "";
-        top: 5px;
-      }
-
-      span {
-        margin-left: 15px;
+      .name-course {
+        text-align: center;
+        font-size: 18px;
+        color: var(--blacks);
+        margin-top: 2em;
       }
     }
-  }
-
-  .box-img-sale {
-    margin-top: 2em;
-  }
-
-  .form-regis-learn {
-    margin-top: 3em;
   }
 
   .box-review-photo {

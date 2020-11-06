@@ -27,6 +27,8 @@ $w: (
   --reds: #ff0101;
   --c77: #777777;
   --c36: #363636;
+  --bg-footer: #040404;
+  --star: #fec824;
 }
 
 ////////////////////////////////////// Function //////////////////////////////////////
@@ -72,4 +74,8 @@ body {
 
 :focus {
   outline: -webkit-focus-ring-color auto 0px;
+}
+
+a {
+  text-decoration: none !important;
 }

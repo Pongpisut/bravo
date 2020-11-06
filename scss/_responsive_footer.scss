@@ -1,0 +1,57 @@
+@include media426 {
+  .footer-salepage {
+    .sub-logo {
+      font-size: 18px;
+    }
+
+    .menu-jump {
+      font-size: 18px;
+    }
+
+    .jumpto {
+      font-size: 18px;
+
+      a {
+        text-align: center;
+        padding: 12px;
+      }
+    }
+  }
+}
+
+@include media376 {
+  .footer-salepage {
+    .jumpto {
+      font-size: 17px;
+
+      a {
+        text-align: center;
+        padding: 5px;
+      }
+    }
+
+    .copyright {
+      font-size: 14px;
+    }
+  }
+}
+
+@include media320 {
+  .footer-salepage {
+    .sub-logo {
+      font-size: 14px;
+    }
+
+    .menu-jump {
+      font-size: 13px;
+    }
+
+    .jumpto {
+      font-size: 13px;
+    }
+
+    .copyright {
+      font-size: 11px;
+    }
+  }
+}
