@@ -272,7 +272,7 @@
         </div>
 
         <!--  Reviews photo-->
-        <div class="box-review-photo">
+        <div class="box-review-photo" id="reviews-photos">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
@@ -282,7 +282,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-down">
                         <div class="box-review-photo">
                             <img src="assets/img/reviews-photo.png" class="img-fluid" alt="">
                         </div>
@@ -297,7 +297,7 @@
         <!--  End Reviews photo -->
 
         <!-- skill -->
-        <div class="box-skill">
+        <div class="box-skill" id="box-skills">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
@@ -308,7 +308,7 @@
                     </div>
 
                     <?php for ($i = 1; $i <= 12; $i++) { ?>
-                        <div class="col-lg-4 col-md-4 col-sm-4 mt-4 mb-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4 mt-4 mb-4" data-aos="fade-down">
                             <div class="box-skill-img">
                                 <img src="assets/img/skills/skills-<?= $i; ?>.png" class="img-fluid" alt="">
                             </div>
@@ -321,7 +321,7 @@
 
         <!-- course other -->
 
-        <div class="box-course-other">
+        <div class="box-course-other" id="course-others">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
@@ -341,7 +341,7 @@
                         '6' => 'I’m Trader 100%',
                     ); ?>
                     <?php for ($i = 1; $i <= 6; $i++) { ?>
-                        <div class="col-lg-6 col-md-6 col-sm-6 box-detail-course">
+                        <div class="col-lg-6 col-md-6 col-sm-6 box-detail-course" data-aos="fade-right">
                             <a href="javascript:void(0)">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-12 col-sm-12">
@@ -377,13 +377,13 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right">
                         <div class="box-img-certificate">
                             <img src="assets/img/certificate.png" class="img-fluid" alt="">
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-left">
                         <div class="box-icon-certificate">
                             <img src="assets/img/icon-certificate.png" class="img-fluid" alt="">
                         </div>
@@ -418,7 +418,7 @@
         <div class="box-reviews-text">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="box-section-reviews">
                             <div class="row">
                                 <div class="col-lg-6 col-sm-6 col-md-6 ">
@@ -437,7 +437,7 @@
                     </div>
 
                     <?php for ($i = 1; $i <= 9; $i++) { ?>
-                        <div class="col-lg-4 col-md-4 col-sm-4 grid-user-reviews">
+                        <div class="col-lg-4 col-md-4 col-sm-4 grid-user-reviews" data-aos="fade-up">
                             <div class="box-reviews-text-user">
                                 <div class="star">
                                     <?php for ($k = 1; $k <= 5; $k++) { ?>
@@ -473,10 +473,10 @@
 
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                     <span class="menu-jump">ข้ามไปที่ :</span>
-                    <span class="jumpto"><a href="javascript:void(0)">สิ่งที่นักเรียนจะได้รับ</a></span>
-                    <span class="jumpto"><a href="javascript:void(0)">รีวิวจากผู้เรียน</a></span>
-                    <span class="jumpto"><a href="javascript:void(0)">ลงทะเบียนเรียน</a></span>
-                    <span class="jumpto"><a href="javascript:void(0)">คอร์สเรียนอื่นๆ</a></span>
+                    <span class="jumpto"><a href="#box-skills" class="page-scroll">สิ่งที่นักเรียนจะได้รับ</a></span>
+                    <span class="jumpto"><a href="#reviews-photos" class="page-scroll">รีวิวจากผู้เรียน</a></span>
+                    <span class="jumpto"><a href="#salepage" class="page-scroll">ลงทะเบียนเรียน</a></span>
+                    <span class="jumpto"><a href="#course-others" class="page-scroll">คอร์สเรียนอื่นๆ</a></span>
 
                     <p class="copyright">
                         Copyright © 2020 all rights reserved. | Bravo Win Trade
@@ -489,8 +489,8 @@
 
     <?php include 'javascript.php'; ?>
 
-
     <script src="assets/plugin/js/jquery.smartWizard.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function() {
 
@@ -534,15 +534,10 @@
                 }
             });
 
-
-
-
-
-
-            // define a action for finish btn
-            $('.btn-fnsh').on('click', function() {
-                alert('Finish clicked!')
-            });
+            // // define a action for finish btn
+            // $('.btn-fnsh').on('click', function() {
+            //     alert('Finish clicked!')
+            // });
 
 
 

@@ -14,68 +14,39 @@
     <?php include 'header.php'; ?>
 
 
-    <section id="store">
+    <section id="detail-store">
+        <!-- Slide -->
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
 
-        <div class="header-store" id="header-stores">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 sol-sm-12">
-                        <div class="box-img-logo">
-                            <img src="assets/img/logo.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 sol-sm-12 ">
-                        <div class="box-btn text-right">
-                            <a href="salepage.php"><button type="submit" class="btn btn-lg btn-danger btn-register-header"><i class="fas fa-user-plus"></i> ลงทะเบียนเรียน</button></a>
-                        </div>
-                    </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    <img src="assets/img/banner1.jpg" class="d-block w-100" alt="...">
                 </div>
-
-                <div class="box-course-store">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                            <h2 class="title-course">คอร์สเรียนทั้งหมด</h2>
-                        </div>
-                        <?php
-                        $name_course = array(
-                            '1' => 'BWT GOLD Trading Strategy  39,900.00 ฿',
-                            '2' => 'Fundamental For Trading  12,900.00 ฿',
-                            '3' => 'Start To forex  6,900.00 ฿',
-                            '4' => 'Advance Demand & Supply  20,000.00 ฿',
-                            '5' => 'Private Advance Demand & Supply  199,900.00 ฿',
-                            '6' => 'I’m Trader 100%  0 ฿',
-                            '7' => 'Bravo Camp 39,900.00 ฿',
-                            '8' => 'Bravo Win Trade Seminar 0 ฿',
-                            '9' => 'Life Forex Trip (Coming Soon) 0 ฿',
-                        );
-                        ?>
-                        <?php for ($i = 1; $i <= 9; $i++) { ?>
-                            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-down">
-                                <a href="detail-store.php">
-                                    <div class="box-course-sale">
-                                        <div class="box-img">
-                                            <img src="assets/img/store/store-course-<?= $i; ?>.png" class="img-fluid" alt="">
-                                            <p class="name-course"><?= $name_course[$i]; ?></span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        <?php } ?>
-                    </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="assets/img/banner2.jpg" class="d-block w-100" alt="...">
                 </div>
-
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center" data-aos="fade-down">
-                        <div class="box-img-sale">
-                            <img src="assets/img/banner-sale-price.png" class="img-fluid" alt="">
-                        </div>
-
-                        <a href="salepage.php"><button type="submit" class="btn btn-lg btn-danger btn-register-section"><i class="fas fa-user-plus"></i> ลงทะเบียนเรียน</button></a>
-
-                    </div>
+                <div class="carousel-item">
+                    <img src="assets/img/banner3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+
+        <!-- End Slide -->
+
+
 
         <!--  Reviews photo-->
         <div class="box-review-photo" id="reviews-photos">
@@ -281,7 +252,7 @@
                     <span class="menu-jump">ข้ามไปที่ :</span>
                     <span class="jumpto"><a href="#box-skills" class="page-scroll">สิ่งที่นักเรียนจะได้รับ</a></span>
                     <span class="jumpto"><a href="#reviews-photos" class="page-scroll">รีวิวจากผู้เรียน</a></span>
-                    <span class="jumpto"><a href="#header-stores" class="page-scroll">ลงทะเบียนเรียน</a></span>
+                    <span class="jumpto"><a href="salepage.php" class="page-scroll">ลงทะเบียนเรียน</a></span>
                     <span class="jumpto"><a href="#course-others" class="page-scroll">คอร์สเรียนอื่นๆ</a></span>
 
                     <p class="copyright">

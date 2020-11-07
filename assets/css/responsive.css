@@ -334,6 +334,9 @@
   #salepage .box-certificate .box-title-section .title-section {
     font-size: 26px;
   }
+  #salepage .box-reviews-text .box-section-reviews .box-title-section {
+    margin-top: 0;
+  }
   #salepage .box-reviews-text .box-section-reviews .box-title-section .title-section {
     font-size: 26px;
   }
@@ -359,6 +362,9 @@
   }
   #salepage .box-reviews-text .box-section-reviews .box-img-section {
     text-align: center;
+  }
+  #salepage .box-reviews-text .box-section-reviews .box-title-section {
+    margin-top: 20px;
   }
   #salepage .box-reviews-text .box-section-reviews .box-title-section .title-section {
     text-align: center;
@@ -473,6 +479,9 @@
   #store .box-certificate .box-title-section .title-section {
     font-size: 26px;
   }
+  #store .box-reviews-text .box-section-reviews .box-title-section {
+    margin-top: 0;
+  }
   #store .box-reviews-text .box-section-reviews .box-title-section .title-section {
     font-size: 26px;
   }
@@ -498,6 +507,9 @@
   }
   #store .box-reviews-text .box-section-reviews .box-img-section {
     text-align: center;
+  }
+  #store .box-reviews-text .box-section-reviews .box-title-section {
+    margin-top: 20px;
   }
   #store .box-reviews-text .box-section-reviews .box-title-section .title-section {
     text-align: center;
@@ -587,6 +599,154 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  #detail-store .header-store .box-img-logo {
+    text-align: center;
+  }
+  #detail-store .header-store .box-btn {
+    text-align: center !important;
+  }
+  #detail-store .header-store .box-btn .btn-register-header {
+    margin-top: 2em;
+  }
+  #detail-store .box-course-store .box-course-sale .name-course {
+    font-size: 16px;
+  }
+  #detail-store .box-img-sale {
+    text-align: center;
+  }
+  #detail-store .box-review-photo .box-title-section .title-section {
+    font-size: 26px;
+  }
+  #detail-store .box-skill .box-title-section .title-sectio {
+    font-size: 26px;
+  }
+  #detail-store .box-course-other .box-title-section .title-section {
+    font-size: 26px;
+  }
+  #detail-store .box-certificate .box-title-section .title-section {
+    font-size: 26px;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section {
+    margin-top: 0;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section .title-section {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #detail-store .box-review-photo .box-title-section .title-section {
+    font-size: 26px;
+  }
+  #detail-store .box-skill {
+    margin-top: 0;
+    padding: 0;
+    -webkit-clip-path: initial;
+            clip-path: initial;
+  }
+  #detail-store .box-certificate {
+    padding: 0;
+    -webkit-clip-path: initial;
+            clip-path: initial;
+  }
+  #detail-store .box-reviews-text .box-section-reviews {
+    margin-bottom: 1em;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-img-section {
+    text-align: center;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section {
+    margin-top: 20px;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section .title-section {
+    text-align: center;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section .sub-title {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #detail-store .box-course-store .box-course-sale .name-course {
+    font-size: 18px;
+  }
+  #detail-store .box-review-photo .box-title-section .title-section {
+    font-size: 24px;
+  }
+  #detail-store .box-skill .box-title-section .title-section {
+    font-size: 24px;
+  }
+  #detail-store .box-course-other .box-title-section .title-section {
+    font-size: 24px;
+  }
+  #detail-store .box-certificate .box-title-section .title-section {
+    font-size: 24px;
+  }
+  #detail-store .box-video .box-title-section .title-section {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #detail-store .box-review-photo .box-title-section .title-section {
+    font-size: 20px;
+  }
+  #detail-store .box-review-photo .box-title-section .sub-title {
+    font-size: 14px;
+  }
+  #detail-store .box-skill {
+    margin-top: 0;
+    padding: 0;
+    -webkit-clip-path: initial;
+            clip-path: initial;
+  }
+  #detail-store .box-skill .box-title-section .title-section {
+    font-size: 20px;
+  }
+  #detail-store .box-skill .box-title-section .sub-title {
+    font-size: 14px;
+  }
+  #detail-store .box-certificate {
+    padding: 0;
+    -webkit-clip-path: initial;
+            clip-path: initial;
+  }
+  #detail-store .box-certificate .box-title-section .title-section {
+    font-size: 20px;
+  }
+  #detail-store .box-certificate .box-title-section .sub-title {
+    font-size: 14px;
+  }
+  #detail-store .box-video .box-title-section .title-section {
+    font-size: 20px;
+  }
+  #detail-store .box-video .box-title-section .sub-title {
+    font-size: 14px;
+  }
+  #detail-store .box-reviews-text .box-section-reviews {
+    margin-bottom: 1em;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-img-section {
+    text-align: center;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section {
+    text-align: center;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section .title-section {
+    font-size: 20px;
+  }
+  #detail-store .box-reviews-text .box-section-reviews .box-title-section .sub-title {
+    font-size: 14px;
+  }
+  .btn-register-section {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2em !important;
+  }
+}
+
 @media screen and (max-width: 426px) {
   .footer-salepage .sub-logo {
     font-size: 18px;
@@ -609,7 +769,7 @@
   }
   .footer-salepage .jumpto a {
     text-align: center;
-    padding: 5px;
+    padding: 7px;
   }
   .footer-salepage .copyright {
     font-size: 14px;

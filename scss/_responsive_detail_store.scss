@@ -1,5 +1,27 @@
 @include media768 {
-  #salepage {
+  #detail-store {
+    .header-store {
+      .box-img-logo {
+        text-align: center;
+      }
+
+      .box-btn {
+        text-align: center !important;
+
+        .btn-register-header {
+          margin-top: 2em;
+        }
+      }
+    }
+
+    .box-course-store {
+      .box-course-sale {
+        .name-course {
+          font-size: 16px;
+        }
+      }
+    }
+
     .box-img-sale {
       text-align: center;
     }
@@ -51,7 +73,7 @@
 }
 
 @include media426 {
-  #salepage {
+  #detail-store {
     .box-review-photo {
       .box-title-section {
         .title-section {
@@ -97,7 +119,15 @@
 }
 
 @include media376 {
-  #salepage {
+  #detail-store {
+    .box-course-store {
+      .box-course-sale {
+        .name-course {
+          font-size: 18px;
+        }
+      }
+    }
+
     .box-review-photo {
       .box-title-section {
         .title-section {
@@ -141,7 +171,7 @@
 }
 
 @include media320 {
-  #salepage {
+  #detail-store {
     .box-review-photo {
       .box-title-section {
         .title-section {
