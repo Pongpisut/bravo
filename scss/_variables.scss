@@ -84,3 +84,34 @@ body {
 a {
   text-decoration: none !important;
 }
+
+// totop
+#toTop {
+  padding: 10px 15px;
+  border: 2px solid var(--blues-name);
+  color: var(--blues-name);
+  position: fixed;
+  bottom: 15px;
+  right: 5px;
+  display: none;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  z-index: 1000;
+  @extend %transition-3;
+
+  .fa-angle-up {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: weights(bold);
+    color: colors(whites);
+  }
+
+  &:hover {
+    background-color: var(--blues-name);
+
+    .fa-angle-up {
+      color: var(--whites);
+    }
+  }
+}

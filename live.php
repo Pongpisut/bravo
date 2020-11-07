@@ -169,6 +169,7 @@
     </section>
 
 
+    <div id="toTop"><i class="fas fa-angle-up"></i></div>
 
 
 
@@ -217,6 +218,24 @@
                     //seconds
                 }, 0)
         }());
+    </script>
+
+    <script>
+        // to top
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $("#toTop").fadeIn();
+            } else {
+                $("#toTop").fadeOut();
+            }
+        });
+        $("#toTop").click(function() {
+            $("html, body").animate({
+                    scrollTop: 0,
+                },
+                1800
+            );
+        });
     </script>
 </body>
 

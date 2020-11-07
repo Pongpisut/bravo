@@ -152,6 +152,7 @@
                 </div>
             </div>
         </div>
+        <div id="toTop"><i class="fas fa-angle-up"></i></div>
     </section>
 
 
@@ -219,6 +220,24 @@
                 currentModaltime.modal('hide');
                 currentModaltime.closest("div[id^='timeModal']").nextAll("div[id^='timeModal']").first().modal('show');
             });
+        });
+    </script>
+
+    <script>
+        // to top
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $("#toTop").fadeIn();
+            } else {
+                $("#toTop").fadeOut();
+            }
+        });
+        $("#toTop").click(function() {
+            $("html, body").animate({
+                    scrollTop: 0,
+                },
+                1800
+            );
         });
     </script>
 </body>

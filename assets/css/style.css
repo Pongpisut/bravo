@@ -90,7 +90,7 @@
   --cc: #cccccc;
 }
 
-#salepage .box-reviews-text .grid-user-reviews .box-reviews-text-user, #salepage .box-reviews-text .grid-user-reviews .box-reviews-text-user:hover, #store .box-reviews-text .grid-user-reviews .box-reviews-text-user, #store .box-reviews-text .grid-user-reviews .box-reviews-text-user:hover, #detail-store .box-reviews-text .grid-user-reviews .box-reviews-text-user, #detail-store .box-reviews-text .grid-user-reviews .box-reviews-text-user:hover, #live .zone-chat .box-share-comment .box-comment .btn-comment {
+#toTop, #salepage .box-reviews-text .grid-user-reviews .box-reviews-text-user, #salepage .box-reviews-text .grid-user-reviews .box-reviews-text-user:hover, #store .box-reviews-text .grid-user-reviews .box-reviews-text-user, #store .box-reviews-text .grid-user-reviews .box-reviews-text-user:hover, #detail-store .box-reviews-text .grid-user-reviews .box-reviews-text-user, #detail-store .box-reviews-text .grid-user-reviews .box-reviews-text-user:hover, #live .zone-chat .box-share-comment .box-comment .btn-comment {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -117,6 +117,35 @@ body {
 
 a {
   text-decoration: none !important;
+}
+
+#toTop {
+  padding: 10px 15px;
+  border: 2px solid var(--blues-name);
+  color: var(--blues-name);
+  position: fixed;
+  bottom: 15px;
+  right: 5px;
+  display: none;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#toTop .fa-angle-up {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: weights(bold);
+  color: colors(whites);
+}
+
+#toTop:hover {
+  background-color: var(--blues-name);
+}
+
+#toTop:hover .fa-angle-up {
+  color: var(--whites);
 }
 
 #content-index {
