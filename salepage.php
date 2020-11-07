@@ -534,10 +534,10 @@
                 }
             });
 
-            // // define a action for finish btn
-            // $('.btn-fnsh').on('click', function() {
-            //     alert('Finish clicked!')
-            // });
+            // define a action for finish btn
+            $('.btn-fnsh').on('click', function() {
+                alert('Finish clicked!')
+            });
 
 
 
@@ -561,6 +561,15 @@
 
             // Set selected theme on page refresh
             $("#theme_selector").change();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function() {
+            AOS.init({
+                delay: 100,
+                duration: 400,
+            });
         });
     </script>
 </body>

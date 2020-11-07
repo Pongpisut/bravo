@@ -1,0 +1,317 @@
+@include media1024 {
+  .check-tab-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: -10px;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: -10px;
+      top: -20%;
+    }
+  }
+
+  .check-tab-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 0;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 0;
+      top: -20%;
+    }
+  }
+}
+
+@include media768 {
+  #live {
+    .zone-chat {
+      .box-share-comment {
+        padding: 10px 30px;
+      }
+
+      .box-chat {
+        .box-comment-show {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    .zone-live {
+      .box-iframe {
+        margin-top: 0;
+      }
+    }
+
+    #msform {
+      .box-intro-course {
+        .detail-intro {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  .check-tab-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30px;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30px;
+      top: -20%;
+    }
+  }
+
+  .check-tab-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30px;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30px;
+      top: -20%;
+    }
+  }
+}
+
+@include media426 {
+  #live {
+    .download-section {
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .check-tab-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 30%;
+      top: -20%;
+    }
+  }
+}
+
+@include media376 {
+  .check-tab-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 27%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 27%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 27%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 27%;
+      top: -20%;
+    }
+  }
+}
+
+@include media320 {
+  .check-tab-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 23%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab2 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 23%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-img.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 23%;
+      top: -20%;
+    }
+  }
+
+  .check-tab-active-tab3 {
+    &:after {
+      content: "";
+      background: url("../img/check-active.png");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 23%;
+      top: -20%;
+    }
+  }
+
+  #live {
+    .zone-chat {
+      .box-share-comment {
+        .box-btn-share {
+          .social-share {
+            padding: 1px;
+          }
+        }
+      }
+    }
+  }
+}

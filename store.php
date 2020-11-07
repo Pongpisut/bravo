@@ -295,4 +295,13 @@
 
     <?php include 'javascript.php'; ?>
 
+    <script type="text/javascript">
+        $(function() {
+            AOS.init({
+                delay: 100,
+                duration: 400,
+            });
+        });
+    </script>
+
 </html>

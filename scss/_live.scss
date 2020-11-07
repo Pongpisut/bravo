@@ -1,0 +1,227 @@
+#live {
+  overflow-x: hidden;
+
+  .zone-live {
+    background: url("../img/bg-live.png"), var(--a2);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-iframe {
+      margin-top: 5em;
+    }
+  }
+
+  .zone-chat {
+    padding-left: 0;
+
+    .box-chat {
+      height: 550px;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        width: 8px;
+        position: relative;
+        z-index: -1;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: var(--f5);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: var(--blues-name);
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background: var(--cc);
+      }
+
+      .box-comment-show {
+        margin-left: 15px;
+
+        .name-user {
+          margin-bottom: 0;
+          margin-top: 1rem;
+        }
+
+        .comment-text {
+          margin-bottom: 0;
+          font-size: 16px;
+          color: var(--a8);
+        }
+
+        .hr-chat {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .card {
+      .download-section {
+        .fa-file-pdf {
+          font-size: 40px;
+          color: var(--blacks);
+        }
+
+        p {
+          font-size: 18px;
+          color: var(--blacks);
+          margin-top: 10px;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .box-share-comment {
+      background-color: var(--f3);
+      padding: 15px;
+
+      .box-btn-share {
+        padding-top: 1em;
+
+        .social-share {
+          padding: 5px;
+
+          a {
+            &:nth-child(1) {
+              color: var(--blues-name);
+            }
+
+            &:nth-child(2) {
+              color: var(--blacks);
+            }
+
+            &:nth-child(3) {
+              color: var(--blues-name);
+            }
+          }
+        }
+      }
+
+      .box-comment {
+        margin: 1em 0;
+
+        .btn-comment {
+          margin-top: 1em;
+          background-color: var(--blues-name);
+          color: var(--whites);
+          border-radius: 0 !important;
+          @extend %transition-3;
+
+          &:hover {
+            background-color: #264794;
+          }
+        }
+      }
+    }
+  }
+
+  #msform {
+    text-align: center;
+
+    .box-intro-course {
+      .name-site {
+        font-size: 16px;
+      }
+
+      .intro-site {
+        font-size: 20px;
+        color: var(--reds);
+        text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+      }
+
+      .detail-intro {
+        text-align: left;
+        .fa-check {
+          color: var(--blues-name);
+        }
+      }
+    }
+
+    .name-site-tab2 {
+      color: var(--reds);
+      font-size: 20px;
+      text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.7);
+    }
+
+    .name-site-tab3 {
+      font-size: 20px;
+      text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.7);
+    }
+
+    .name-site-tab4 {
+      font-size: 20px;
+      text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.7);
+    }
+
+    #countdown {
+      ul {
+        li {
+          display: inline;
+
+          .text-date {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@for $i from 1 through 6 {
+  .items-course-tab2-#{$i} {
+    position: relative;
+  }
+}
+
+.check-tab-tab2 {
+  &:after {
+    content: "";
+    background: url("../img/check-img.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10px;
+    top: -20%;
+  }
+}
+
+.check-tab-active-tab2 {
+  &:after {
+    content: "";
+    background: url("../img/check-active.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10px;
+    top: -20%;
+  }
+}
+
+.check-tab-tab3 {
+  &:after {
+    content: "";
+    background: url("../img/check-img.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: -20%;
+  }
+}
+
+.check-tab-active-tab3 {
+  &:after {
+    content: "";
+    background: url("../img/check-active.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: -20%;
+  }
+}
