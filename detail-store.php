@@ -20,9 +20,6 @@
 
 <body>
 
-    <?php include 'header.php'; ?>
-
-
     <section id="detail-store">
         <!-- Slide -->
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">

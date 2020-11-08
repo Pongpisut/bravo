@@ -19,10 +19,6 @@
 </head>
 
 <body>
-
-    <?php include 'header.php'; ?>
-
-
     <section id="store">
 
         <div class="header-store" id="header-stores">

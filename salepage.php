@@ -22,9 +22,6 @@
 
 <body>
 
-    <?php include 'header.php'; ?>
-
-
     <section id="salepage">
         <div class="container">
             <div class="row">

@@ -20,10 +20,6 @@
 
 <body>
 
-    <?php include 'header.php'; ?>
-
-
-
     <section id="content-index">
         <div class="container">
             <div class="row">

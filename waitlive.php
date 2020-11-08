@@ -19,10 +19,6 @@
 </head>
 
 <body>
-
-    <?php include 'header.php'; ?>
-
-
     <section id="waitlive">
         <div class="container">
             <div class="row">

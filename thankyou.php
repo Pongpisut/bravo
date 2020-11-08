@@ -19,9 +19,6 @@
 </head>
 
 <body>
-
-    <?php include 'header.php'; ?>
-
     <section id="thankyou-page">
         <div class="menu-top-thankyou bg-whites">
             <div class="container">
