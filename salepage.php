@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bravo - Webinar Live</title>
+    <meta name="keywords" content=">Webinar Live" />
+    <meta name="description" content=">Webinar Live" />
+    <meta name="robot" content="index, follow" />
+    <meta name="generator" content="brackets">
+    <meta name='copyright' content='orange technology solution co.,ltd.'>
+    <meta name='designer' content='Peem'>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link type="image/ico" rel="shortcut icon" href="assets/img/favicon.ico">
 
     <?php include 'stylesheet.php'; ?>
     <link rel="stylesheet" href="assets/plugin/css/plugins.css">
