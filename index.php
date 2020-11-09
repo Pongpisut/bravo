@@ -72,7 +72,7 @@
                             </div>
 
                             <div class="box-btn ">
-                                <button type="button" class="btn btn-gradient  btn-banner-index " data-toggle="modal" data-target="#myModal1"><i class="fas fa-user-plus"></i> สมัครเรียน</button>
+                                <button type="button" class="btn btn-gradient  btn-banner-index" id="regis-index" data-toggle="modal" data-target="#myModal1"><i class="fas fa-user-plus"></i> สมัครเรียน</button>
                                 <p id="text-or">หรือ</p>
                                 <button type="button" class="btn btn-gradient btn-banner-index " data-toggle="modal" data-target="#timeModal1"><i class="far fa-clock"></i> เลือกเวลาเรียน</button>
                             </div>
@@ -187,7 +187,7 @@
                     if (distance < 0) {
                         let countdown = document.getElementById("countdown");
                         let content = document.getElementById("content");
-                        let btn_register = document.getElementById("register-btn");
+                        let btn_register = document.getElementById("regis-index");
                         let or = document.getElementById("text-or");
 
                         countdown.style.display = "none";
