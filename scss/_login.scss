@@ -1,0 +1,35 @@
+#login-page {
+  background-image: url("../img/bg-thankyou.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .bg-whites {
+    background-color: var(--whites);
+    @include box-shadow(4px 6px 5px 0px rgba(222, 222, 222, 1));
+  }
+
+  .box-login {
+    margin-top: 5em;
+    margin-bottom: 3em;
+    border: 2px solid var(--f3);
+    padding: 15px;
+    border-radius: 2px 2px 2px 2px;
+    @include box-shadow(-2px 0px 5px 0px rgba(0, 0, 0, 0.075));
+
+    .form-group {
+      margin: 1em 0;
+    }
+  }
+}
+
+.login-text {
+  font-size: 14px;
+  color: var(--blacks);
+  text-decoration: none;
+  margin-top: 1em;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--blues-name);
+  }
+}

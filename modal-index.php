@@ -32,6 +32,7 @@
                                 <label for="phone"><i class="fas fa-phone-alt"></i> เบอร์โทรศัพท์</label>
                                 <input type="text" class="form-control" id="phone" placeholder="กรุณากรอกเบอรโทรศัพท์">
                             </div>
+                            <a href="login.php" class="login-text"><i class="fas fa-user"></i> <span>หากท่านลงทะเบียนเรียนไว้แล้ว คลิ๊กที่นี่</span></a>
                         </div>
                     </div>
                 </div>
@@ -129,6 +130,8 @@
                                     <label class="form-check-label"> วันนี้เวลา 16.00 น. </label>
                                 </div>
                             <?php } ?>
+                            <br />
+                            <a href="login.php" class="login-text"> <i class="fas fa-user"></i> <span>หากท่านลงทะเบียนเรียนไว้แล้ว คลิ๊กที่นี่</span></a>
                         </div>
                     </div>
                 </div>

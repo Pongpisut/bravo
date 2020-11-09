@@ -123,6 +123,7 @@ a {
   padding: 10px 15px;
   border: 2px solid var(--blues-name);
   color: var(--blues-name);
+  background-color: var(--whites);
   position: fixed;
   bottom: 15px;
   right: 5px;
@@ -1813,6 +1814,50 @@ a {
   position: absolute;
   right: 0;
   top: -20%;
+}
+
+#login-page {
+  background-image: url("../img/bg-thankyou.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#login-page .bg-whites {
+  background-color: var(--whites);
+  box-shadow: 4px 6px 5px 0px #dedede;
+  -o-box-shadow: 4px 6px 5px 0px #dedede;
+  -moz-box-shadow: 4px 6px 5px 0px #dedede;
+  -webkit-box-shadow: 4px 6px 5px 0px #dedede;
+  -ms-box-shadow: 4px 6px 5px 0px #dedede;
+}
+
+#login-page .box-login {
+  margin-top: 5em;
+  margin-bottom: 3em;
+  border: 2px solid var(--f3);
+  padding: 15px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.075);
+  -o-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.075);
+  -ms-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.075);
+}
+
+#login-page .box-login .form-group {
+  margin: 1em 0;
+}
+
+.login-text {
+  font-size: 14px;
+  color: var(--blacks);
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.login-text:hover {
+  text-decoration: none;
+  color: var(--blues-name);
 }
 
 .footer-salepage {
