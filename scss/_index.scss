@@ -43,6 +43,7 @@
       h2 {
         font-family: $ibm_medium;
         color: var(--blues-name);
+        font-size: 28px;
       }
 
       .line-course {
@@ -79,7 +80,7 @@
         }
 
         .free-price {
-          font-size: 60px;
+          font-size: 40px;
           font-family: $ibm_medium;
           color: var(--reds);
         }

@@ -99,7 +99,7 @@
                         );
                         ?>
 
-                        <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card card-course">
                                 <div class="card-header text-center">
                                     <p class="name-th"><?= $items_card_th[$i]; ?></p>
@@ -171,7 +171,7 @@
                 hour = minute * 60,
                 day = hour * 24;
 
-            let nextlive = "Nov 1, 2021 09:32:00",
+            let nextlive = "Nov 1, 2020 09:32:00",
                 countDown = new Date(nextlive).getTime(),
                 x = setInterval(function() {
 

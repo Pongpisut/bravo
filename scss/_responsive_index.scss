@@ -56,6 +56,12 @@
         }
       }
     }
+
+    .card-course {
+      .name-th {
+        font-size: 14px;
+      }
+    }
   }
 }
 
@@ -67,6 +73,14 @@
   .footer-index {
     p {
       font-size: 13px;
+    }
+  }
+
+  #content-index {
+    .card-course {
+      .name-th {
+        font-size: 20px;
+      }
     }
   }
 }

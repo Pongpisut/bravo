@@ -38,6 +38,9 @@
   #content-index .box-countdown-course .box-detail-countdown .box-next-live .box-count-down #countdown ul li #seconds {
     margin-left: 10px;
   }
+  #content-index .card-course .name-th {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 426px) {
@@ -46,6 +49,9 @@
   }
   .footer-index p {
     font-size: 13px;
+  }
+  #content-index .card-course .name-th {
+    font-size: 20px;
   }
 }
 

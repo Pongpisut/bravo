@@ -196,6 +196,7 @@ a {
 #content-index .box-countdown-course .box-detail-countdown h2 {
   font-family: "Conv_IBMPlexSansThai-Medium";
   color: var(--blues-name);
+  font-size: 28px;
 }
 
 #content-index .box-countdown-course .box-detail-countdown .line-course {
@@ -232,7 +233,7 @@ a {
 }
 
 #content-index .box-countdown-course .box-detail-countdown .price .free-price {
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Conv_IBMPlexSansThai-Medium";
   color: var(--reds);
 }
