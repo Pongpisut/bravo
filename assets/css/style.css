@@ -1820,6 +1820,7 @@ a {
   background-image: url("../img/bg-thankyou.png");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 #login-page .bg-whites {
@@ -1829,12 +1830,11 @@ a {
   -moz-box-shadow: 4px 6px 5px 0px #dedede;
   -webkit-box-shadow: 4px 6px 5px 0px #dedede;
   -ms-box-shadow: 4px 6px 5px 0px #dedede;
-  margin-bottom: 4em;
 }
 
 #login-page .box-login {
   margin-top: 5em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
   border: 2px solid var(--f3);
   padding: 15px;
   border-radius: 2px 2px 2px 2px;
