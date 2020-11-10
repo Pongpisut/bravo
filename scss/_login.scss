@@ -6,6 +6,7 @@
   .bg-whites {
     background-color: var(--whites);
     @include box-shadow(4px 6px 5px 0px rgba(222, 222, 222, 1));
+    margin-bottom: 4em;
   }
 
   .box-login {
